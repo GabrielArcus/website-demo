@@ -1,2 +1,28 @@
+@import 'reset';
+
+// reset css should be imported at the top of the style sass file as it resets a lot o the css
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', 'Lato', 'Helvetica', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+// setup above
+// make sure to include box sizing and image css at start of project
 @import 'variables';
 @import 'grid';
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@import 'nav';
